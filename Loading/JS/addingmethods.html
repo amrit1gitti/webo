@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html>
+<head>
+<script type="text/javascript">
+
+     function people(name,age){
+	        this.name = name;
+			this.age = age;
+			this.yearsUntilRetire = yearsLeft;
+			}
+			
+			function yearsLeft(){
+			     var numYears = 65 - this.age;
+    			 return numYears;
+			}
+     var emily = new people("Natalie Emily",28);
+     var amrit = new people("Amrit sharma",19);
+
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+
+   document.write(emily.yearsUntilRetire ());
+    document.write("<br />");
+	document.write(amrit.yearsUntilRetire ());
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
